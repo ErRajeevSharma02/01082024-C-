@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+// converting char into int
+  char ch;
+  cout<<"Enter a character: ";
+  cin>>ch;
+  cout<<endl;
+
+  int x =(int)ch;  //char to int
+  cout<<"ASCII value of "<<ch<<" is "<<x<<endl;
+  cout<<endl;
+
+
+  // converting  int to char
+  int y;   
+  cout<<"Enter a number: ";
+  cin>>y;
+  cout<<endl;
+  char character = (char)y; //int to char
+  cout<<"The character " <<character<<  " is present at this location "<<y<<endl;
+  
+
+
+
+  
+  return 0;
+}
