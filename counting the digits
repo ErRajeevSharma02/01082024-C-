@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+int x;
+cout<<"Enter the number : ";
+cin>>x;
+cout<<endl;
+
+int count=0;
+while(n!=0)
+{
+ n=n/10;
+count++;
+}
+cout<<endl;
+cout<<"The number of digits present in the given number is : "<<count<<endl;
+
+
+
+return 0;
+}
