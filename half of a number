@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+  int x;
+  cout << "Enter a number:  ";
+  cin >> x;
+  cout << endl;
+
+  float y = (float)x;
+  cout << "Half of a " << x << " is " << y / 2;
+  cout << endl;
+
+  return 0;
+}
