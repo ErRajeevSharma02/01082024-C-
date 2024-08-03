@@ -1,0 +1,90 @@
+#include <iostream>
+using namespace std;
+int main() {
+   
+  int rows,col;
+   cout<<"Enter the number of rows: ";
+   cin>>rows;
+   cout<<"Enter the number of columns : ";
+   cin>>col;
+   cout<<endl;
+   
+   for(int i=1;i<=rows;i++)
+   {
+       for(int j=1;j<=i;j++)
+       {
+           cout<<"* ";
+           
+       }
+       cout<<endl;
+   }
+   
+   for(int k=1;k<=rows;k++)
+   {
+       for(int l=1;l<=k;l++)
+       {
+           cout<<l<<" ";
+           
+       }
+       cout<<endl;
+   }
+   
+   for(int m=1;m<=rows;m++)
+   {
+       for(int n=1;n<=m;n++)
+       {
+           cout<<(char)(n+64)<<" ";
+           
+       }
+       cout<<endl;
+   }
+   
+    for(int o=1;o<=rows;o++)
+   {
+       for(int p=1;p<=o;p++)
+       {
+           cout<<p<<" ";
+           
+       }
+       cout<<endl;
+   }
+   
+   for(int q=1;q<=rows;q++)
+   {
+       if(q%2==0)
+       {
+           for(int r=1;r<=q;r++)
+         {
+           cout<<r<<" ";
+           
+         }
+       }
+       else
+       {
+           for(int r=1;r<=q;r++)
+       {
+           cout<<(char)(r+64)<<" ";
+           
+       }
+       }
+       cout<<endl;
+   }
+   
+     for(int o=1;o<=rows;o++)
+   {
+       for(int p=1;p<=o;p++)
+       {
+           cout<<p<<" ";
+           
+       }
+       cout<<endl;
+   }
+
+
+
+
+
+
+
+    return 0;
+}
