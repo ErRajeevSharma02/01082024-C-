@@ -10,7 +10,16 @@ int main() {
         }
         cout<<endl;
     }
+   cout<<endl;
    
+   for(int k=1;k<=5;k++)
+   {
+       for(int l=1;l<=5;l++)
+       {
+           cout<<l<<" ";
+       }
+       cout<<endl;
+   }
 
     return 0;
 }
