@@ -26,5 +26,42 @@ int main()
       }
      cout<<endl;   
   }
+ cout<<endl;
+  
+   for(int k=1;k<=rows;k++)
+  {
+      
+      for(int l=1;l<=col;l++)
+      {
+          cout<<(char )(k+64 )<<" ";
+      }
+     cout<<endl;   
+  }
+
+ cout<<endl;
+  
+   for(int m=1;m<=rows;m++)
+  {
+      
+      for(int n=1;n<=col;n++)
+      {
+          cout<<(char )(n+64 )<<" ";
+      }
+     cout<<endl;   
+  }
+
+ cout<<endl;
+  
+   for(int x=1;x<=rows;x++)
+  {
+      
+      for(int y=1;y<=col;y++)
+      {
+          cout<<(char )(x+64 )<<" ";
+      }
+     cout<<endl;   
+  }
+
+
  return 0;
 }
