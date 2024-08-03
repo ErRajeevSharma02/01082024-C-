@@ -1,20 +1,26 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
-   for(int i=1;i<=4;i++)
-   {
-     for(int j=1;j<=4;j++)
-     {
-        cout<<i<<" ";
-     }
-   }
+int main() {
+   
+
+
 
   int rows,col;
    cout<<"Enter the number of rows: ";
    cin>>rows;
    cout<<"Enter the number of columns : ";
    cin>>col;
+   cout<<endl;
+   
+   
+   for(int i=1;i<=rows;i++)
+   {
+     for(int j=1;j<=col;j++)
+     {
+        cout<<i<<" ";
+     }
+     cout<<endl;
+   }
    cout<<endl;
    
   for(int i=1;i<=rows;i++)
@@ -45,7 +51,7 @@ int main()
       
       for(int n=1;n<=col;n++)
       {
-          cout<<(char )(n+64 )<<" ";
+          cout<<(char )(n+96 )<<" ";
       }
      cout<<endl;   
   }
@@ -57,11 +63,12 @@ int main()
       
       for(int y=1;y<=col;y++)
       {
-          cout<<(char )(x+64 )<<" ";
+          cout<<(char )(x+96 )<<" ";
       }
      cout<<endl;   
   }
 
 
- return 0;
+
+    return 0;
 }
