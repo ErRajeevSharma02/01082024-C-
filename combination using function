@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+
+  int fact(int x)
+ {
+  int a=1;
+   for(int i=1;i<=x;i++){
+     a=a*i;  // also written as a*=i;
+   }
+   return a;
+ }
+
+
+
+int main( ){
+
+    int n;
+  cout<<"Enter the value of N: ";
+  cin>>n;
+  cout<<endl;
+
+  int r;
+  cout<<"Enter the value of R: ";
+  cin>>r;
+  cout<<endl;
+
+  int a=fact(n);
+  int b=fact(r);
+  int c =fact(n-r);
+
+
+  
+cout<<a/(b*c);
+
+
+
+  return 0;
+}
