@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+
+int fact(int x){
+  int y=1;
+  for(int i=1;i<=x;i++)
+    {
+      y=y*i;
+    }
+  return y;
+}
+int ncr(int i,int j)
+{
+  int a=fact(i);
+  int b=fact(j);
+  int c=fact(i-j);
+  return a/(b*c);
+}
+
+int main(){
+
+  int n;
+  cout<<"Enter the number of rows: ";
+  cin>>n;
+  for(int i=0;i<=n;i++)
+    {
+      for(int k=0;k<=n-i+1;k++)
+        {
+          cout<<" ";
+        }
+      for (int j=0;j<=i;j++)
+        {
+          cout<<ncr(i,j)<<" ";
+        }
+      cout<<endl;
+    }
+
+
+  
+  return 0;
+}
