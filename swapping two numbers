@@ -1,0 +1,52 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+    // first method for swapping two number using third variable
+
+  int x=4;
+  cout<<"Before x is: "<<x;
+  cout<<endl;
+
+  int y=8;
+  cout<<"Before y is: "<<y;
+
+  int temp;
+
+  temp = x;
+  x=y;
+  y=temp;
+
+  cout<<endl;
+  cout<<"After x is : "<<x;
+  cout<<endl;
+  cout<<"After y is : "<<y;
+  cout<<endl;
+  cout<<endl;
+  
+
+  // second method using three mathematical expressions
+
+  int a=6;
+  cout<<"before a is : "<<a;
+  cout<<endl;
+
+  int b=4;
+  cout<<"before b is : "<<b;
+
+  a = a+b;
+  b = a-b;
+  a = a-b;
+
+  cout<<endl;
+  cout<<"after a is : "<<a;
+  cout<<endl;
+  cout<<"after b is : "<<b;
+  
+
+
+
+
+
+  return 0;
+}
