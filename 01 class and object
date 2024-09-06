@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+class product{   // declaration of class with product name
+  
+  public:           // using access modifier giving properties
+    char name[100];  // maximum number of character
+    int quantity;
+    int price;
+    char quality;
+    
+    
+    
+    
+    
+    
+};
+
+int main()
+{
+    product monitor;   // making object 
+   
+    
+    cout<<sizeof(monitor)<<endl;
+    
+    // nate if there is empty class the size of empty class is one byte
+    
+    
+    return 0;
+}
