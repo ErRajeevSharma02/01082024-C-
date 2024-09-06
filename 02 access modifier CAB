@@ -1,0 +1,67 @@
+#include<iostream>
+using namespace std;
+
+class product{
+
+   // public:
+    string name;
+
+    int price;
+    int quantity;
+
+public:             // note if here we use public then we can access the function outside the class also
+   string getname(){
+       return name;
+   }
+   int getprice(){
+       return price;
+   }
+    int getquantity(){
+        return quantity;
+    }
+    void setname(string n){
+        name=n;
+    }
+   void setprice(int p){
+    price=p;
+   }
+
+// here we can also get passward feature by using if function and setter function
+// void setprice(string n, int p){
+//     if (n=="rajeev"){
+//         price=p;
+//     }
+// }
+
+   void setquantity(int q){
+    quantity=q;
+   }
+     
+};
+int main(){
+
+    product p1;  //  creating object in the class
+    
+    p1.setname("apple");
+    p1.setprice(100);
+    p1.setquantity(10);
+    cout<<"name of product is "<<p1.getname()<<endl;
+    cout<<"price of product is "<<p1.getprice()<<endl;
+    cout<<"price of quantity is "<<p1.getquantity()<<endl;
+
+
+
+    // following is the example of when the access modifier is public
+
+    
+    // p1.name = "apple";
+    // p1.price = 100;
+    // p1.quantity = 10;
+    // cout<<p1.nname<<endl;
+    // cout<<p1.price<<endl;
+    // cout<<p1.quantity<<endl;
+    
+      
+    return 0;
+}
+
